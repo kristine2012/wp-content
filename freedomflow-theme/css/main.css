@@ -1,0 +1,263 @@
+html, body {
+	background-color: #FEF4F3 ;
+	height: 100%;
+	margin: 0;
+}
+.h2{
+	font-style: italic;
+	font-family: Georgia;
+}
+.page-wrap {
+	min-height: 100%;
+}
+.container {
+	padding: 20px;
+}
+ul{
+	/* min-width: 696px; */
+	list-style: none;
+	padding-top: 20px;
+}
+li{
+	display: inline;
+	align-items: center;
+}
+ 
+.social-links {
+	display: block;
+}
+/* .social-links li {
+	margin-right: 16px;
+} */
+.social-links li:last-child {
+	margin-right: 0;
+}
+.copyright {
+	margin-top: 16px;
+}
+ .footer {
+	font-family: Helvetica;
+	color: #101927;
+	background-color: #e0a7b3ff; 
+} 
+/* footer finish */ 
+ .header {
+	color: #101927;
+	background-color: #e0a7b3ff;
+}
+
+.image-header {
+	position: relative;
+	width: 100%;
+	height: 320px;
+	background-position: center center;
+	background-size: cover;
+	height: auto;
+	max-height: calc(70vh - 85px);
+	min-height: 320px;
+}
+.image-header::before {
+	content: "";
+	height: 0;
+	display: block;
+	padding-bottom: 56.25%;
+}
+.post-content {
+	padding: 50px;
+}
+.feature-image {
+	width:100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.feature-image img {
+	width: 100%;
+	height: auto;
+}
+a{
+	color: #e0a7b3ff;
+}
+@media all and (max-width: 992px) {
+	.feature-image {
+		background-image: none !important;
+	}
+}
+@media all and (min-width: 992px) {
+	.card .col-lg-6 {
+		width: 65% !important;
+	}
+	.feature-image {
+		position: absolute !important;
+		top: 0;
+		right: 0;
+		max-width: 35% !important;
+		height: 100%;
+		background-image:
+}
+	.feature-image img {
+		display: none;
+	}
+}
+.title {
+	color: #101927;
+	font-weight: 700;
+}
+
+.timestamp {
+	text-transform: uppercase;
+	font-weight: 800;
+	font-size: 13px;
+}
+.unstyled-list {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.social-links {
+	display: block;
+}
+.social-links li {
+	margin-right: 16px;
+}
+.social-links li:last-child {
+	margin-right: 0;
+}
+.copyright {
+	margin-top: 16px;
+}
+
+
+.site-logo-link,
+.header a.nav-link {
+	color: #101927;
+	text-decoration: none;
+	background-color: transparent;
+}
+
+.site-logo-link:hover,
+.header a.nav-link:hover {
+	color: #101927;
+	text-decoration: underline;
+}
+
+.site-logo-link:hover {
+	text-decoration: none;
+}
+
+
+@media all and (max-width: 992px) {
+    .menu-trigger {
+        display: inline-block;
+        cursor: pointer;
+    }
+    
+    .top-bar {
+        display: none;
+    }
+
+    .top-bar ul li {
+        display: block;
+    }
+}
+
+@media all and (min-width: 992px) {
+    .menu-trigger {
+        display: none !important;
+    }
+    
+    .top-bar {
+        display: block !important;
+    }
+
+    .top-bar ul li {
+        display: inline-block !important;
+    }
+
+    .nav-link {
+        display: inline-block !important;
+    }
+}
+
+
+.card {
+    border: none;
+    position: relative;
+    margin-bottom: 30px;
+    color: #101927;
+    /* background-color: #ffedda; */
+    /* background-color: #fff6ec; */
+	overflow: hidden;
+	padding: 18px;
+    border-radius: 50px 0 50px 0;
+}
+.card:last-child {
+  margin-bottom: 0;
+}
+/* front page  */
+.header-image {
+	max-width: 100%;
+	height: auto;
+}
+.site-title {
+	font-family: Georgia;
+}
+.btn-primary  {
+	color: #ffffff!important;
+    background-color: #ddc96cff!important;
+    border-color: #ddc96cff!important;
+}
+
+.img-thumbnail{
+	border: none;
+	border-style:none;
+	border-color: none;
+	border-radius: 50px 0 50px 0;
+}
+
+.container-fluid__front-para{
+	background-color:  #e0a7b3ff;
+	;
+}
+
+.container.text-center.site-header{
+	background-color:  #FEF4F3;
+	;
+}
+
+.title.text-center.mt-7.mb-5{
+	font-style: italic;
+	font-family: Georgia;
+	color: #101927;
+}
+
+.donation {
+	position: relative;
+	width: 100%;
+	background-image: url(../images/pattern-flow.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 24px;
+}
+
+.donation__content {
+	padding: 100px;
+	background-color: white;
+	border-radius: 1000px;
+}
+
+@media all and (min-width: 992px) {
+	.donation {
+		padding: 0;
+		min-height: 600px;
+	}
+
+	.donation__content {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		width: 50%;
+		max-width: 600px;
+	}
+}
